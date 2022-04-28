@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    /* TAMAÑO BASE DE LA WEB*/
+    font-size: 10;
+
+    /* TIPOGRAFÍA */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+:root{
+    --blueDark: 04031E;
+    --yellow: F29F05;
+    --orange: F2620F;
+    --orangeDark: BF3A0A;
+    --texto: black;
+}
