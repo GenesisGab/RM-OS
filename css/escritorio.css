@@ -8,8 +8,10 @@ body{
 
 .desktop{
   
-    min-width: 70rem;
-    min-height: 35rem;
+   min-width: 70rem;
+  /* min-width: 100%;*/
+   min-height: 35rem;
+  /*min-height: 40.5rem;*/
 
     margin-top: 2rem;
     background-color: aqua;
@@ -18,15 +20,6 @@ body{
     background-size: cover;
 }
 
-/*
-.desktop{
-min-width: 70rem;
-    min-height: 35rem;
 
-    width: 100rem;
-    height: 55rem;
-    background-color: aqua;
 
-    margin-top: 6rem;
-}*/
 

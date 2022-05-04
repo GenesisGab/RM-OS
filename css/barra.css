@@ -1,0 +1,37 @@
+
+.barra_abajo{
+    width: 4.5%;
+    height: 35rem;
+  
+   background-color:rgba(4, 3, 30, 0.5);
+
+    display: flex;
+    justify-content:flex-end;
+   
+}
+.barra_icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.3rem;
+
+   
+    border-radius: 100%; 
+    margin-top: 1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+.barra_icon_img{
+    margin-top: 0.5rem;
+    width: 1.5rem;
+
+}
+
+.hora{
+    margin-top: 24rem;
+    margin-right: 0.1rem;
+    font-size: 0.45rem;
+    color: aliceblue;
+
+    text-align: center;
+}
