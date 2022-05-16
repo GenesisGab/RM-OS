@@ -4,7 +4,6 @@ var menu = document.getElementById('menu');
 var ico_menu = document.getElementById('ico_menu');
 
 
-
 var ventana = document.getElementById('ventanita')
 var ico_explorer = document.getElementById('ico_explorer');
 
@@ -13,8 +12,6 @@ var ico_explorer = document.getElementById('ico_explorer');
 
 function activar(){
     menu.classList.add("activar");
-    
-    
 }
 
 
@@ -29,6 +26,8 @@ ico_menu.addEventListener('click',activar);
 
 
 ico_explorer.addEventListener('click',ventanaActivate);
+
+
 
 
 

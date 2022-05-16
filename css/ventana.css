@@ -13,7 +13,6 @@
     display: block;
 }
 
-
 .escritorio{
     width: 100%;
     height: 370px;
@@ -72,12 +71,25 @@
 .boton_color{
     background-color: var(--yellow);
 }
+.boton_color:hover{
+    background-color: white;
+    transition: 0.3s;
+}
 
 .boton_color2{
     background-color: var(--orange);
+}
+.boton_color2:hover{
+    background-color: white;
+    transition: 0.3s;
 }
 
 .boton_color3{
 
     background-color: var(--orangeDark);
 }
+.boton_color3:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+
