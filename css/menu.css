@@ -1,13 +1,11 @@
 
 .menu1{
     width: 20%;
-    height: 37.6rem;
+    /*height: 37.6rem;*/
+    height: 100%;
     background-color:rgba(0, 0, 0, 0.522);
     
-
-   /*display:inline-block;*/
     display: none;
-    
     
 }
 

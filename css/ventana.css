@@ -3,9 +3,14 @@
     width: 600px;
     height: 400px;
     background-color:darkgrey;
-    background-size: cover;
     margin: auto;
     
+    display: none;
+    
+}
+
+.ventanaActivate{
+    display: block;
 }
 
 
@@ -21,8 +26,11 @@
 
     display: flex;
     justify-content:space-between;
+    
 
 }
+
+
 .texto{
 
     width: 3.5rem;
