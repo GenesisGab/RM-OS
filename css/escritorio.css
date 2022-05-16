@@ -7,16 +7,26 @@ body{
 }
 
 .desktop{
-  
-   min-width: 70rem;
-  /* min-width: 100%;*/
-   min-height: 35rem;
-  /*min-height: 40.5rem;*/
-
-    margin-top: 2rem;
+ 
+    width: 100vw;
+    height: 100vh;
+    
     background-color: aqua;
-
     background-image: url(https://ubuntucommunity.s3.dualstack.us-east-2.amazonaws.com/optimized/2X/0/0921cb27d5604b464218a64ae88a3f43c7b7371a_2_690x345.png);
+  
+  
+   /*  background-image: url(https://i.pinimg.com/originals/82/f4/68/82f468eac16f36ece8bf5d722ecdf445.jpg);
+*/
+
+    /*background-image: url(https://p4.wallpaperbetter.com/wallpaper/958/136/1009/valley-mountains-trees-digital-art-artwork-hd-wallpaper-preview.jpg);
+*/
+
+    /*background-image: url(https://s1.1zoom.me/b5050/233/Painting_Art_Sunrises_and_sunsets_Mountains_Deer_529666_3840x2160.jpg);
+*/
+
+   /* background-image: url(https://www.wallpapermaiden.com/image/2019/05/27/flat-landscape-deer-lake-sunlight-dawn-sunset-landscape-33500.jpeg);
+*/
+
     background-size: cover;
 }
 

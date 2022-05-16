@@ -1,0 +1,75 @@
+
+.ventana{
+    width: 600px;
+    height: 400px;
+    background-color:darkgrey;
+    background-size: cover;
+    margin: auto;
+    
+}
+
+
+.escritorio{
+    width: 100%;
+    height: 370px;
+}
+
+.barra{
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.807);
+
+    display: flex;
+    justify-content:space-between;
+
+}
+.texto{
+
+    width: 3.5rem;
+    height: auto;
+
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.815);
+    margin-top: 0.7rem;
+    margin-left: 1.5rem;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+.bot{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 1.5rem;
+    
+
+    text-align: center;
+}
+
+.boton{
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    margin-left: 0.3rem;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    justify-content: center;
+    /*padding-top: 0rem;*/
+
+    color: black;
+    font-size: 1rem;
+}
+
+.boton_color{
+    background-color: var(--yellow);
+}
+
+.boton_color2{
+    background-color: var(--orange);
+}
+
+.boton_color3{
+
+    background-color: var(--orangeDark);
+}

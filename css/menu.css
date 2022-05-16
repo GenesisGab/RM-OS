@@ -1,0 +1,77 @@
+
+.menu1{
+    width: 20%;
+    height: 37.6rem;
+    background-color:rgba(0, 0, 0, 0.522);
+    
+
+   /*display:inline-block;*/
+    display: none;
+    
+    
+}
+
+/**  **/
+
+.activar{
+    display: inline-block;
+    justify-content:flex-start;    
+    position: absolute;
+
+    margin-left: 4rem;
+    transition: 1s;
+    
+}
+
+
+.menu_icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.3rem;
+
+   
+    border-radius: 100%; 
+    margin-top: 1rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+
+.menu_icon:hover{
+    background-color: #eb00003f;
+   
+    
+    color: rgb(255, 5, 5);
+    transition: 0.5s;
+
+}
+.menu_icon_img{
+    margin-top: 0.5rem;
+    width: 1.5rem;
+
+}
+
+.hora{
+    margin-top: 24rem;
+    margin-right: 0.1rem;
+    font-size: 0.45rem;
+    color: aliceblue;
+
+    text-align: center;
+}
+
+
+.menu_icon2{
+    margin-top: 1.3rem;
+
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+.menu_titulo{
+    text-align: center;
+}

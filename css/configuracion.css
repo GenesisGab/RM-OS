@@ -10,14 +10,21 @@ html{
     font-size: 10;
 
     /* TIPOGRAFÍA */
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 
 }
 
 :root{
     --blueDark: 04031E;
-    --yellow: F29F05;
-    --orange: F2620F;
-    --orangeDark: BF3A0A;
+    --yellow: #F29F05;
+    --orange: #F2620F;
+    --orangeDark: #BF3A0A;
     --texto: black;
+}
+
+.desktop{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
 }

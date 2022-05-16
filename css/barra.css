@@ -1,11 +1,11 @@
 
 .barra_abajo{
     width: 4.5%;
-    height: 35rem;
+    height: auto;
   
-   background-color:rgba(4, 3, 30, 0.5);
+    background-color:rgba(4, 3, 30, 0.5);
 
-    display: flex;
+    display: inline-block;
     justify-content:flex-end;
    
 }
@@ -14,12 +14,23 @@
     height: 2.5rem;
     margin-right: 0.3rem;
 
+    margin-left: 0.3rem;
    
     border-radius: 100%; 
     margin-top: 1rem;
 
     text-align: center;
     justify-content: center;
+}
+
+
+.barra_icon:hover{
+    background-color: #ffffff3f;
+   
+    
+    color: #fff;
+    transition: 0.5s;
+
 }
 .barra_icon_img{
     margin-top: 0.5rem;

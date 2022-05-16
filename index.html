@@ -8,12 +8,14 @@
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
 
     <!-- ARCHIVOS CSS -->
     <link rel="stylesheet" href="css/configuracion.css">
     <link rel="stylesheet" href="css/escritorio.css">
     <link rel="stylesheet" href="css/barra.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/ventana.css">
 
     <title>Document</title>
 </head>
@@ -22,16 +24,18 @@
 
     <div class="desktop">
 
+       
+
+        <!-- BARRA DE TAREAS -->
         <div class="barra_abajo">
 
             <div class="barra2">
-
                <div class="barra_icon">
-                   <img class="barra_icon_img" src="https://icones.pro/wp-content/uploads/2021/06/icone-windows-jaune.png" alt="">
+                   <img class="barra_icon_img" id="ico_menu" src="https://icones.pro/wp-content/uploads/2021/06/icone-windows-jaune.png" alt="">
                </div>
 
                 <div class="barra_icon">
-                    <img class="barra_icon_img" src="https://upload.wikimedia.org/wikipedia/commons/7/7f/File-Explorer-fluent-icon.png" alt="">
+                    <img class="barra_icon_img" id="ico_explorer" src="https://upload.wikimedia.org/wikipedia/commons/7/7f/File-Explorer-fluent-icon.png" alt="">
                 </div>
 
                 <div class="hora">
@@ -39,13 +43,55 @@
                     <br>
                     27/01/2022
                </div>
-
            </div>
 
+
        </div>
+
+
+          <!--MENÚ-->
+          <div class="menu1" id="menu">
+            <div class="menu_icon2">
+                
+                <h1 class="menu_titulo">
+                    ICONS
+                </h1>
+                
+                
+            </div>
+
+             <div class="menu_icon">
+               
+             </div>
+        </div>
         
 
+         <!--CREACION DE LA VENTANA-->
+         <div class="ventana" id="ventanita">
+            <div class="barra">
+                
+                    <div class="texto">
+                        
+                    </div>
+
+                    <div class="bot">
+                        <div class="boton boton_color">
+                        -
+                        </div>
+                        <div class="boton boton_color2">
+                            □
+                        </div>
+                        <div class="boton boton_color3">
+                             x
+                        </div>
+                    </div>
+            </div>
+            <div class="escritorio"></div>
+        </div>
+
+
     </div>
+
 
 
     <!--CONEXION PROGRAMACIÓN-->
