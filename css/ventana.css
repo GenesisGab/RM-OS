@@ -9,9 +9,25 @@
     
 }
 
+/******** CODIGO PARA DESACTIVAR LA VENTANA ************/
 .ventanaActivate{
     display: block;
 }
+
+/*
+.cerrarVentana{
+    display: none;
+}
+*/
+
+/*****CODIGO PARA AMPLIAR LA VENTANA******/
+/*
+.ventana2{
+    width: 100%;
+    height: 100%;
+}
+*/
+/*******************************************/
 
 .escritorio{
     width: 100%;
