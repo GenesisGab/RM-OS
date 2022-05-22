@@ -1,13 +1,20 @@
 
 .barra_abajo{
-    width: 4.5%;
-    height: auto;
-  
-    background-color:rgba(4, 3, 30, 0.5);
 
+    width: 3.6rem;
+    height: auto;
+    background-color:rgba(4, 3, 30, 0.5);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    /*
     display: inline-block;
     justify-content:flex-end;
     align-items: center;
+    */
    
 }
 .barra_icon{
@@ -15,35 +22,47 @@
     height: 2.5rem;
     
     margin-right: 0.3rem;
-    margin-left: 0.3rem;
+    margin-left: 0.4rem;
 
     border-radius: 100%;
     margin-top: 1rem;
 
-    border: 1px solid rgb(255, 200, 0);
-    text-align: center;
+   /*border: 1px solid rgb(255, 200, 0);
+*/
+   text-align: center;
     justify-content: center;
 
+    /**************/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 
+.barra_icon:hover {
+    color: #ffee10;
+    /*background-color: #ffef1049;
+    */
 
-.barra_icon:hover{
-    background-color: #ffffff3f;
-   
+    border-radius: 100% solid #fff;
     
-    color: #fff;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
     transition: 0.5s;
+  }
 
-}
+
 .barra_icon_img{
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     width: 1.5rem;
+    margin-right: 0.1rem;
 }
+
+
 
 .hora{
-    margin-top: 24rem;
+    margin-bottom: 2rem;
     margin-right: 0.1rem;
     font-size: 0.45rem;
     color: aliceblue;
