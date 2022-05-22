@@ -35,6 +35,7 @@
     color: rgba(240, 248, 255, 0.806);
     font-weight: 100;
     margin-top: 2rem;
+    text-shadow: 0 0 5px #ffef10a0;
 }
 
 /******* BUSCADOR **********/
@@ -71,6 +72,7 @@ input{
 .menu_opciones:hover{
     background-color: rgba(240, 248, 255, 0.393);
     transition: 0.5s;
+    text-shadow: 0 0 5px #ffef10b2;
 }
 
 .opciones_texto{
@@ -110,9 +112,30 @@ input{
     
 }
 .img_menu:hover{
-    background-color: #ffef10d3;
+    background-color: #ffef1064;
 
     border-radius: 100%;
     transition: 0.5s;
+    box-shadow: 0 0 5px #ffee10;
 }
 
+
+/******************/
+
+.iconosOpciones{
+    margin-top: 5rem;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    background-color: rgba(0, 0, 0, 0.458);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+.img{
+    width: 2rem;
+    height: 2rem;
+}
